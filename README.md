@@ -1,6 +1,6 @@
 ﻿# Assignment1
-
-1. What Are the Differences Between Interfaces and Types in TypeScript?
+ 
+ 1. What Are the Differences Between Interfaces and Types in TypeScript?
    
 Answer:
 In TypeScript, both interfaces and types are used to define the shape of objects, but they have different characteristics and use cases that set them apart. Understanding the nuances between these two can significantly improve how we structure code in TypeScript.
@@ -14,7 +14,6 @@ interface Person {
   name: string;
   age: number;
 }
-
 type PersonKeys = keyof Person;
 
 3. Explain the difference between any, unknown, and never types in TypeScript.
@@ -34,3 +33,14 @@ In TypeScript, enums are a way to define a set of named constants, which can be 
 Answer: 
 Type inference in TypeScript refers to the ability of the TypeScript compiler to automatically deduce the type of a variable, function, or expression based on its value, without needing explicit type annotations. TypeScript analyzes the assigned value and infers the most appropriate type for it.
 
+
+6. How does TypeScript help in improving code quality and project maintainability?
+
+Answer: 
+TypeScript, a statically-typed superset of JavaScript, offers a range of features that significantly enhance code quality and long-term project maintainability. By providing static types, better tooling, and structured development practices, TypeScript helps catch errors early, improves code clarity, and makes collaboration more efficient.
+
+
+7. Provide an example of using union and intersection types in TypeScript.
+
+Answer: 
+In TypeScript, union types and intersection types are powerful tools that allow you to create flexible and more expressive type definitions.
